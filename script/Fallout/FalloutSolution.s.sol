@@ -13,9 +13,9 @@ contract FalloutSolution is Script {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
 
         console.log("Owner before: ", falloutInstance.owner());
-        
+
         falloutInstance.Fal1out();
-        
+
         console.log("Owner after: ", falloutInstance.owner());
 
         vm.stopBroadcast();
