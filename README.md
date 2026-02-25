@@ -6,8 +6,8 @@ This repository contains Ethernaut Challenges solved using Foundry
 
 | Level | 
 | ------------- |
-| [0. HelloEthernaut](src/Level0/) |
-| [1. Fallback](src/Fallback) |
+| [0. HelloEthernaut](sctipt/Level0/) |
+| [1. Fallback](src/Fallback/) |
 | 2. Fallout Solved in Remix |
 | [3. Coin Flip](src/CoinFlip/) |
 
