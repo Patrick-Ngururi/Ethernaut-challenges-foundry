@@ -6,10 +6,10 @@ This repository contains Ethernaut Challenges solved using Foundry
 
 | Level | 
 | ------------- |
-| [0. HelloEthernaut](script/Level0/) |
-| [1. Fallback](script/Fallback) |
+| [0. HelloEthernaut](src/Level0/) |
+| [1. Fallback](src/Fallback) |
 | 2. Fallout Solved in Remix |
-| [3. Coin Flip](script/CoinFlip/) |
+| [3. Coin Flip](src/CoinFlip/) |
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
