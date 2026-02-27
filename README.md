@@ -13,6 +13,7 @@ Link to the Ethernaut challenges: (https://ethernaut.openzeppelin.com/)
 | 2. Fallout Solved in Remix |
 | [3. Coin Flip](script/CoinFlip/CoinFlipSolution.s.sol) |
 | [4. Telephone](script/Telephone/TelephoneSolution.s.sol) |
+| 5. Teken solved in Remix |
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
