@@ -2,6 +2,8 @@
 
 This repository contains Ethernaut Challenges solved using Foundry
 
+Link to the Ethernaut challenges: (https://ethernaut.openzeppelin.com/)
+
 ### Levels
 
 | Level | 
