@@ -17,10 +17,8 @@ contract TelephoneSolution is Script {
 
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
-        new IntermediaryContract(
-            telephoneInstance, vm.envAddress("MY_ADDRESS")
-        );
-        
+        new IntermediaryContract(telephoneInstance, vm.envAddress("MY_ADDRESS"));
+
         vm.stopBroadcast();
     }
 }

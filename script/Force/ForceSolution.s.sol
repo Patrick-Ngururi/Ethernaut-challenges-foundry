@@ -13,9 +13,8 @@ contract ToBeDestructed {
 }
 
 contract ForceSolution is Script {
+    // Force public forceInstance = Force(0x690c7A8D292f853728DbeB8eFD1C3FDd9f4C063f);
 
-     // Force public forceInstance = Force(0x690c7A8D292f853728DbeB8eFD1C3FDd9f4C063f);
-   
     function run() external {
         vm.startBroadcast(vm.envUint("PRIVATE_KEY"));
         new ToBeDestructed{value: 1 wei}(payable(0x690c7A8D292f853728DbeB8eFD1C3FDd9f4C063f));
