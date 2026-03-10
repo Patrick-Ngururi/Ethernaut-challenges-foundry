@@ -16,6 +16,8 @@ Link to the Ethernaut challenges: (https://ethernaut.openzeppelin.com/)
 | 5. Token solved in Remix |
 | [6. Delegation](script/Delegation/DelegationSolution.s.sol) |
 | [7. Force](script/Force/ForceSolution.s.sol) |
+| [8. Vault](script/Vault/VaultSolution.s.sol) |
+| [9. King](script/King/KingSolution.s.sol) |
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
