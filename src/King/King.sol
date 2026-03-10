@@ -12,6 +12,7 @@ contract King {
         prize = msg.value;
     }
 
+    // @audit Dos Attack
     receive() external payable {
         require(msg.value >= prize || msg.sender == owner);
         payable(king).transfer(msg.value);
